@@ -1,0 +1,10 @@
+package ch.hslu.oop.sw08;
+
+public enum StateTemperatures {
+    BLEI_MELTINGPOINT,
+    BLEI_EVAPOINT,
+    STICKSTOFF_MELTINGPOINT,
+    STICKSTOFF_EVAPOINT,
+    QUECKSILBER_MELTINGPOINT,
+    QUECKSILBER_EVAPOINT;
+}

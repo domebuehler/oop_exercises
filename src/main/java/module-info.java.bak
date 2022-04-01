@@ -1,0 +1,17 @@
+module oop.exercises {
+
+    requires java.desktop;
+
+    requires javafx.controls;
+    requires javafx.graphics;
+    requires javafx.base;
+    requires javafx.fxml;
+
+    requires org.apache.logging.log4j;
+
+    exports ch.hslu.oop.gui.sample to javafx.graphics;
+    exports ch.hslu.oop.sw13.motorapp to javafx.graphics;
+    exports ch.hslu.oop.sw13.temperaturapp to javafx.graphics;
+    exports ch.hslu.oop.analyzeapp.control to javafx.graphics;
+    opens ch.hslu.oop.analyzeapp.model to javafx.base;
+}
